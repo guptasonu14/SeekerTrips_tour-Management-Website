@@ -1,0 +1,1 @@
+export const BASE_URL='https://tour-management-server-beige.vercel.app/api/v1'
