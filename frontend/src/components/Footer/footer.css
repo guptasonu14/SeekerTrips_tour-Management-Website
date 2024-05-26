@@ -3,25 +3,23 @@
     padding-bottom:30px ;
 }
 
-.footer.logo img{
-    width: 60%;
-    margin-bottom: 1rem;
+.footer .logo1 img{
+    width: 45%;
+    height: 8vh;
+    margin-bottom: 2rem;
 }
 
 .footer.logo p  {
     color: var(--text-color);
 }
 
-.social__links span a{
-    text-decoration: none;
-    color: var(--heading-color);
-    margin-bottom: 1rem;
-}
+
 
 .footer__quick-links li a {
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.1rem;
+    
 
 }
 
@@ -33,4 +31,19 @@
 .copyright{
     color: var(--text-color);
     font-size: 1rem;
+}
+.horizontal-line {
+    border: none;
+    border-top: 2px solid #000; /* Change the color and thickness as needed */
+    margin: 2rem 0;
+  }
+  
+
+@media (max-width: 600px) {
+    .footer .logo1 img {
+        width: 35%; 
+        height: 6vh; 
+        margin-bottom: 1.5rem;
+       
+    }
 }
