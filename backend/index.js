@@ -30,6 +30,10 @@ app.use('/api/v1/users', userRoute);
 app.use('/api/v1/review', reviewRoute);
 app.use('/api/v1/booking', bookingRoute);
 
+app.get("/", (req,res)=>{
+  res.send("hello ji");
+});
+
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
