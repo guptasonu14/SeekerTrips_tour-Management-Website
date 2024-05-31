@@ -7,21 +7,21 @@ import guideImg from '../assets/images/guide.png'
 import customizationImg from '../assets/images/customization.png'
 
 const servicesData =[
-     {
+    {
         imgUrl: weatherImg,
-        title:"Calculate Weather",
-        desc:"Lorem ipsum dolor sitamet, conceteur elite.",
-     },
-     {
+        title: "Plan Your Journey",
+        desc: "Get real-time weather updates to plan your adventures wisely and stay prepared for any conditions.",
+      },
+      {
         imgUrl: guideImg,
-        title:"Best Tour Guide",
-        desc:"Lorem ipsum dolor sitamet, conceteur elite.",
-     },
-     {
+        title: "Expert Local Guides",
+        desc: "Discover hidden treasures and local insights with our knowledgeable tour guides for an unforgettable experience.",
+      },
+      {
         imgUrl: customizationImg,
-        title:"Customization",
-        desc:"Lorem ipsum dolor sitamet, conceteur elite.",
-     },
+        title: "Tailored Experiences",
+        desc: "Create your dream vacation with our customizable options, ensuring every detail matches your desires.",
+      },
 
 
 

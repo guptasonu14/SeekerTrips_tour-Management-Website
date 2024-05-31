@@ -4,8 +4,8 @@ import Subtitle from './../shared/Subtitle';
 import SearchBar from "../shared/SearchBar";
 import '../styles/home.css';
 
-import heroImg from '../assets/images/hero-img01.jpg';
-import heroImg02 from '../assets/images/hero-img02.jpg';
+import heroImg from '../assets/images/hero-img01.png';
+import heroImg02 from '../assets/images/hero-img02.png';
 import heroVideo from '../assets/images/hero-video.mp4';
 import worldImg from '../assets/images/world.png';
 import experienceImg from '../assets/images/experience.png';
@@ -38,7 +38,7 @@ const Home = () => {
                                     <span className="highlight">memories</span>
                                 </h1>
                                 <p>
-                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nobis accusantium esse laborum, nulla soluta quasi, ratione veritatis veniam tenetur optio dolorem magnam sequi aut repellendus deserunt temporibus quis neque.
+                                Exploring new places, forging lifelong friendships, discovering hidden gems, and experiencing unique adventures make every journey unforgettable.
                                 </p>
                             </div>
                         </Col>

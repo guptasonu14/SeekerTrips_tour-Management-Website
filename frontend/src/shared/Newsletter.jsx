@@ -17,9 +17,9 @@ const Newsletter = () => {
                                 <button className="btn newsletter__btn">Subscribe</button>
                             </div>
 
-                            <p>Lornsdidnvksd sdfjnf sdnv e adknisd n  ddsinfiss isdn ids n sdin dii ,
-                                asdnf isdn sd ijf idsn  sdin isddv  sddnfid sidids i sdif isds ds fnsdi .
-                            </p>
+                            <p>
+                Stay updated with the latest travel tips, destination guides, and exclusive offers. Join our community of travel enthusiasts and make your next trip unforgettable!
+              </p>
                         </div>
 
                     </Col>

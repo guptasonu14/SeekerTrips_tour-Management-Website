@@ -1,12 +1,13 @@
-
-
 import React from 'react';
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import galleryImages from './galleryImages';
+import { Container } from 'reactstrap';
+import "./gallery.css"
 
 
 const MasonryImagesGallery = () => {
   return (
+    <Container className="gallery">
    <ResponsiveMasonry columnsCountBreakPoints={{350:1, 768:3,992:4}}>
     <Masonry gutter = '1rem'>
         {galleryImages.map((item,index)=>(
@@ -20,7 +21,9 @@ const MasonryImagesGallery = () => {
             ))}
     </Masonry>
    </ResponsiveMasonry>
+   </Container>
   );
 };
 
 export default MasonryImagesGallery;
+

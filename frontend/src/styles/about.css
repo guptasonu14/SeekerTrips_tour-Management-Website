@@ -7,6 +7,16 @@
     flex-direction: column;
     gap: 54px;
   }
+  .about-page1 {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: var(--font-name);
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+    justify-content: space-around;
+  }
   .company-intro{
     display: flex;
     justify-content: space-between;
@@ -57,7 +67,7 @@
     color: #268bd2;
   }
   
-  ul {
+  .about-page1 ul {
     list-style-type: none;
     padding: 0;
   }
@@ -77,6 +87,14 @@
   a:hover {
     color: #dc322f; /* Red color on hover */
   }
+
+  .custom-line {
+    border: none;
+    height: 2px;
+    background-color: #2a2525; 
+    margin: 2rem 0; 
+  }
+  
   
   @media (max-width: 800px) {
     .about-page {

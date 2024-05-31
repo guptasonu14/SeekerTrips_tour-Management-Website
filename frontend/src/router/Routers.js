@@ -12,6 +12,7 @@ import EventPlanning from "../components/eventplanning/EventPlanning";
 import AboutSection from "../pages/About";
 import WeatherForeCastHourly from "../components/forecast/WeatherForecastHourly";
 import ImageCard from "../components/eventplanning/imagecard/ImageCard";
+import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
 
 
 const Layout = () => {
@@ -21,6 +22,7 @@ const Layout = () => {
         <Route path='/home' element={<Home />}/>
         <Route path='/tours' element={<Tours />}/>
         <Route path='/tours/:id' element={<TourDetails />}/>
+        <Route path='/gallery' element={<MasonryImagesGallery />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/register' element={<Register />}/>
         <Route path='/thank-you' element={<ThankYou />}/>
